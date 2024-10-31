@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav class="nav-bar">
+        <div class="logo">Lykos-79</div>
+        <div>
+          <ul class="nav-links">
+            <li><a class="nav-links-element" href="#about">About</a></li>
+            <li><a class="nav-links-element" href="#skills">Skills</a></li>
+            <li><a class="nav-links-element" href="#projects">Projects</a></li>
+            <li><a class="nav-links-element" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- <hr class="nav-divider" /> -->
+    </section>
+    <section class="welcome">
+      <div class="image">
+        <img src="./assets/1.jpg" alt="" class="profile-img" />
+      </div>
+      <div class="content">
+        <div class="intro">
+          <p class="p1">Hello I'm</p>
+          <h1 class="title">Lykos-79</h1>
+          <p class="p2" id="changing-texts">Software Enginner</p>
+        </div>
+        <div class="icon">
+          <a href="https://linkedin.in" class="icon-link"
+            ><i class="ri-linkedin-box-fill"></i
+          ></a>
+          <a href="https://twitter.com" class="icon-link"
+            ><i class="ri-twitter-fill"></i
+          ></a>
+          <a href="https://github.com" class="icon-link"
+            ><i class="ri-github-fill"></i
+          ></a>
+        </div>
+        <div class="btn">
+          <button
+            class="btn-1"
+            onclick="window.open('./assets/Abhisekh_kumar_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn-1" onclick="location.href('./#contact')">
+            Contact Us
+          </button>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
