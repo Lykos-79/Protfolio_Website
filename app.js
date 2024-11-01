@@ -9,4 +9,4 @@ function changeText() {
 
 }
 
-setInterval(changeText, 3000);
+setInterval(changeText, 2000);
